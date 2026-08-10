@@ -73,7 +73,9 @@ namespace NtAI
                 This program under license MIT.
                 Available command:
                 - exit (to exit program).
-                - introduce (to introduce this program.
+                - introduce (the introduction for this program).
+                Thanks for support me all time!
+                Make with 🤡 by dryfish09 when I'm new to C# lol.
                 ");
         }
     }
