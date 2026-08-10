@@ -65,5 +65,13 @@ namespace NtAI
         {
             Console.WriteLine(elseResponses[rand.Next(elseResponses.Length)]);
         }
+        public static void IntroduceAboutThisProgram()
+        {
+            Console.WriteLine(@"
+                About this program:
+                This program written in C# basic, by dryfish09 (formerly realmg51-cpu)
+                This program under license MIT.
+                Available command:
+                - exit (
     }
 }
