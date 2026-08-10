@@ -72,6 +72,10 @@ namespace NtAI
                 This program written in C# basic, by dryfish09 (formerly realmg51-cpu)
                 This program under license MIT.
                 Available command:
-                - exit (
+                - exit (to exit program).
+                - introduce (to introduce this program.
+                ");
+        }
     }
 }
+
