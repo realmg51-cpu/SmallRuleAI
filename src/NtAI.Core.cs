@@ -13,7 +13,7 @@ namespace NtAI
 				Console.Write("You: ");
 				ILib.IResetConsoleColor();
 				string input = Console.ReadLine()?.ToLower().Trim() ?? "";
-				ILib.ISetConsoleColor(" cyan");
+				ILib.ISetConsoleColor("cyan");
 				Console.Write("bot: ");
 				ILib.IResetConsoleColor();
 				if(string.IsNullOrWhiteSpace(input))
@@ -32,6 +32,10 @@ namespace NtAI
 				{
 					Response.SayBye();
 					run = false;
+				}
+				else if(input == "introduce")
+				{
+					Response.IntroduceAboutThisProgram();
 				}
 				else
 				{
